@@ -1,0 +1,11 @@
+{% extends 'blog/base.html'%}
+{% block content %}
+    <h1>{{user.username}}</h1>
+    <h1>{{user.email}}</h1>
+    <h1>{{user.id}}</h1>
+    <div>
+        <img src="{{user.profile.img.url}}" alt="image hai Bhai!!">
+    </div>
+<h1>{{user.profile.img.url}}</h1>
+    <!-- <h1>{{user.password}}</h1> -->
+{% endblock %}
